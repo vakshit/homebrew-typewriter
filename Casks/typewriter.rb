@@ -12,9 +12,9 @@ cask "typewriter" do
 
   app "Typewriter.app"
 
-  postflight_steps do
-    run "/usr/bin/xattr",
-        args: ["-cr", "#{appdir}/Typewriter.app"]
+  postflight do
+  system_command "/usr/bin/xattr",
+                 args: ["-cr", "#{appdir}/Typewriter.app"]
   end
 
   zap trash: [

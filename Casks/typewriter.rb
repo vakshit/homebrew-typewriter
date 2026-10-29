@@ -2,7 +2,7 @@ cask "typewriter" do
   version "0.1.0"
   sha256 :no_check
 
-  url "https://github.com/RIKTESH89/typewriter/releases/download/v#{version}/Typewriter_#{version}_aarch64.dmg"
+  url "https://github.com/vakshit/typewriter/releases/download/v#{version}/Typewriter_#{version}_aarch64.dmg"
   name "Typewriter"
   desc "Minimalist, private-by-default Markdown writing app for journalists"
   homepage "https://typewriter.app"
